@@ -121,9 +121,7 @@ export function Step_By_Step_Form(){
 		
 		<div className="StepFormMainContainer">
 			<div className="StepFormContainer">
-				<aside className="Form_leftSide" style={{
-					backgroundImage : "url("+leftSideBgSvg+")"
-				}}>
+				<aside className="Form_leftSide">
 					<Summary
 						update = {update}
 					></Summary>
