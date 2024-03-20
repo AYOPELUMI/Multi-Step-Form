@@ -1,0 +1,69 @@
+.Personal_Info_Container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	background: #fff;
+	padding-top: 20px;
+
+	div{
+		h2{
+			font-size: 23px;
+			color: #000;
+			font-weight: 900;
+		}
+		p{
+			font-size: 13px;
+			color: #afafb6;
+		}
+	}
+
+	.form_input{
+		width: 100%;
+		margin-top: 0;
+		padding: 13px 13px;
+		border: 2px solid #e5e3e3;
+		outline: none;
+		border-radius: 6px;
+		text-align: left;
+		font-size: 15px;
+		color: #000;
+		background: white;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		gap: 14px;
+
+		label{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 3px;
+			
+			p{
+				color: #000;
+				font-weight: 500;
+				font-size: 16px;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			input[type=number]::-webkit-inner-spin-button,
+			input[type=number]::-webkit-outer-spin-button {
+				appearance: none;
+				margin: 0;
+			}
+			.invalidText{
+				color : hsl(354, 84%, 57%);
+				font-size:14px;
+				word-spacing:1px;
+			}
+		}
+	
+	}
+
+}
